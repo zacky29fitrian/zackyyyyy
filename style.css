@@ -1,0 +1,123 @@
+/*  semua margin, padding, dan menetapkan box-sizing ke border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya utama untuk kontainer */
+.container {
+    height: 100vh; /* Tinggi penuh layar */
+    width: 100%; /* Lebar penuh layar */
+    background: linear-gradient(rgba(238, 189, 189, 0), rgba(233, 190, 190, 0)), url('Zacky.gif'); /* Gradien dengan overlay gambar latar belakang */
+    background-size: cover; /* Memastikan gambar menutupi area sepenuhnya */
+    background-position: center; /* Memusatkan posisi gambar */
+    font-family: Arial, Helvetica, sans-serif; /* Jenis font untuk seluruh kontainer */
+} 
+
+/* Gaya untuk navbar (bilah navigasi) */
+.nav-bar {
+    display: flex; /* Mengatur elemen dalam baris */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    justify-content: space-between; /* Memberikan jarak antar elemen di ujung */
+    padding: 40px 80px; /* Ruang di sekeliling elemen */
+}
+
+/* Gaya untuk judul di navbar */
+.nav-bar .title {
+    color: #fff; /* Warna teks putih */
+    font-size: 50px; /* Ukuran font besar */
+    font-weight: 500; /* Ketebalan font sedang */
+    cursor: pointer; /* Menambahkan kursor pointer saat diarahkan */
+}
+
+/* Gaya untuk elemen <span> dalam judul */
+span {
+    color: rgba(112, 55, 191, 0.836); /* Memberikan warna merah pada elemen <span> */
+}
+
+/* Gaya untuk paragraf di navbar */
+.nav-bar p {
+    position: absolute; /* Menempatkan elemen dengan posisi absolut */
+    margin-top: 90px; /* Jarak dari atas */
+    margin-left: 50px; /* Jarak dari kiri */
+    color: #fff; /* Warna teks putih */
+    font-size: 20px; /* Ukuran font sedang */
+    font-weight: 500; /* Ketebalan font sedang */
+}
+
+/* Gaya untuk elemen daftar di navbar */
+.menu li {
+    list-style: none; /* Menghapus tanda bullet dari daftar */
+    display: inline-block; /* Membuat elemen sejajar dalam satu baris */
+}
+
+/* Gaya untuk tautan dalam daftar menu */
+.menu li a {
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    color: #fff; /* Warna teks putih */
+
+    font-size: 27px; /* Ukuran font besar */
+    font-weight: 600; /* Ketebalan font lebih tebal */
+    margin-left: 25px; /* Jarak antar tautan */
+    transition: .4s ease; /* Animasi halus untuk transisi */
+}
+
+/* Efek hover pada tautan menu */
+.menu li a:hover {
+    color: rgb(20, 100, 165); /* Mengubah warna teks menjadi merah */
+    padding: 5px 10px; /* Menambahkan ruang di sekitar teks */
+    border: 1px solid #fff; /* Menambahkan border putih */
+}
+
+/* Gaya untuk bagian home */
+.home {
+    height: 400px; /* Tinggi bagian home */
+    padding: 70px; /* Ruang di sekeliling elemen */
+}
+
+/* Gaya untuk judul utama dalam home */
+.title-1 {
+    font-size: 70px; /* Ukuran font besar */
+    color: #f5f6f8; /* Warna teks putih */
+    font-weight: 600; /* Ketebalan font lebih tebal */
+}
+
+/* Gaya untuk paragraf dalam home */
+.home p {
+    color: rgb(245, 244, 239); /* Warna teks kuning pucat */
+    font-size: 20px; /* Ukuran font sedang */
+    margin-top: 70px; /* Jarak dari elemen sebelumnya */
+}
+
+/* Gaya untuk tombol dalam home */
+.home button {
+    height: 40px; /* Tinggi tombol */
+    color: #fff; /* Warna teks putih */
+    background: rgb(231, 228, 229); /* Warna latar tombol merah */
+    font-size: 22px; /* Ukuran font sedang besar */
+    padding: 5px 30px; /* Ruang di dalam tombol */
+    margin-top: 20px; /* Jarak dari elemen sebelumnya */
+    border: none; /* Menghapus border default */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    transition: .4s ease; /* Animasi halus untuk transisi */
+
+    cursor: pointer; /* Menambahkan kursor pointer saat diarahkan */
+}
+
+/* Efek hover pada tombol */
+.home button:hover {
+    background: none; /* Menghapus warna latar tombol */
+    border: 2px solid rgb(53, 220, 20); /* Menambahkan border merah */
+}
+/*gaya untuk bagian profile
+.PROFILE
+body {
+   height: 100vh; /* Tinggi penuh layar */
+   width: 100%; /* Lebar penuh layar */
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('blue\ planet\ fish\ GIF\ by\ BBC\ America\ -\ Find\ &\ Share\ on\ GIPHY.gif'); /* Gradien dengan overlay gambar latar belakang */
+   background-size: cover; /* Memastikan gambar menutupi area sepenuhnya */
+   background-position: center; /* Memusatkan posisi gambar */
+   font-family: Arial, Helvetica, sans-serif; /* Jenis font untuk seluruh PROFILE */
+} 
+}
